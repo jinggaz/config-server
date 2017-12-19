@@ -13,7 +13,7 @@ Steps need to do.
 
     Execute "git commit -m "init commit"
 
-    Execute setp 4-7 in "Hystrix-Central-Config" and "Hystrix-Client" project also.
+
 
 **Example of config-server-client.properties" in "backup" directory.
 
