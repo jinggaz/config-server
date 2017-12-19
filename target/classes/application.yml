@@ -1,0 +1,22 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${USERPROFILE}/Desktop/backup
+
+management:
+  security:
+    enabled: false
+  
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:8761/eureka    
